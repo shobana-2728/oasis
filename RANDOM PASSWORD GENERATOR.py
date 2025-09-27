@@ -31,4 +31,5 @@ if __name__ == "__main__":
         print(f"Generated password: {new_password}")
 
     except ValueError:
+
         print("Invalid input. Please enter a number for the password length.")
